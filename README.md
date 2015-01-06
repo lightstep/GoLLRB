@@ -1,3 +1,5 @@
+**NOTE:** *This fork simply removes the example code that does not build and causes ``go build ...`` to fail.*
+
 # GoLLRB
 
 GoLLRB is a Left-Leaning Red-Black (LLRB) implementation of 2-3 balanced binary
