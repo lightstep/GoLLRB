@@ -39,7 +39,13 @@ func less(x, y Item) bool {
 		return false
 	}
 	if x == ninf {
+		return y != ninf
+	}
+	if y == pinf {
 		return true
+	}
+	if y == ninf {
+		return false
 	}
 	return x.Less(y)
 }
